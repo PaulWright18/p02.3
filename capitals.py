@@ -38,4 +38,11 @@ def run_tests():
 # Edit this code
 def isCap(word, n):
     
+    if word.upper():
+        print("Capital")
+    elif word.upper and word.lower():
+        print("Non-capital")
+    else:
+        print("Too small")
+    
 
